@@ -1,17 +1,5 @@
 
 /* Style the sidebar - fixed full height */
-.sidebar__logo {
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    column-gap: .5rem;
-  }
-  
-  .sidebar__logo-img {
-    width: 37px;
-  }
-  .sidebar__logo-text {
-    width: 76px;
-  }
 .sidebar {
     height: 1024px;
     width: 274px;
@@ -21,9 +9,18 @@
     left: 0;
     background-color: #E6E4F0;
     overflow-x: hidden;
-    padding-top: 10px;
+    padding-top: 2px;
   }
-  
+.h{
+    width: 200px;
+    height: 5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+}
   /* Style sidebar links */
   .sidebar a {
     padding: 6px 8px 6px 16px;
@@ -31,7 +28,16 @@
     font-size: 20px;
     color: #818181;
     display: block;
-    font-weight: 5px;
+    background-color: #E6E4F0;
+    border-radius: 80px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  span{
+    color: black;
+    font-size: 15px;
   }
   
   /* Style links on mouse-over */
@@ -56,22 +62,18 @@
 
 /*========================Logo=============================*/
   .skill-box{
-	padding: 1rem;
-	color: #ddd;    
+	padding: 2rem;
 }
 .img{
-	width: 90px;
-	height: 90px;
-	position: relative;
+	width: 80px;
+	height: 80px;
 	border-radius: 45px;
 	background-color: #fff;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	transform: .5s;
 }
 .img img{
-	width: 80px;
+	width: 20px;
 	height: auto;
 	margin-left: 4px;
 }
@@ -79,13 +81,33 @@
 .skill-title h3{
 	color: #fff;
 	margin-top: 5px;
-    margin-left: 8px;
-    text-align: right;
+    text-align: center;
+    margin-left: 100px;
 }
 
-.skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:before{
-	width: 35px;
-}
-.skill-box:hover .img{
-	transform: translateY(-10px);
-}
+
+
+.sidebar__account {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+  }
+  
+  .sidebar__name {
+    font-size: var(--normal-font-size);
+    color: var(--white-color);
+    margin-bottom: .25rem;
+  }
+  
+  .sidebar__email {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+  }
+  
+  .sidebar__account i {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
