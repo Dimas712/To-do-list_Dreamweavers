@@ -1,14 +1,27 @@
+
 /* Style the sidebar - fixed full height */
+.sidebar__logo {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: .5rem;
+  }
+  
+  .sidebar__logo-img {
+    width: 37px;
+  }
+  .sidebar__logo-text {
+    width: 76px;
+  }
 .sidebar {
-    height: 100%;
-    width: 160px;
+    height: 1024px;
+    width: 274px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #E6E4F0;
     overflow-x: hidden;
-    padding-top: 16px;
+    padding-top: 10px;
   }
   
   /* Style sidebar links */
@@ -18,11 +31,15 @@
     font-size: 20px;
     color: #818181;
     display: block;
+    font-weight: 5px;
   }
   
   /* Style links on mouse-over */
   .sidebar a:hover {
-    color: #f1f1f1;
+    background-color: #536EFF;
+  }
+  .sidebar p{
+    margin-left: 17px;
   }
   
   /* Style the main content */
@@ -36,3 +53,39 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+/*========================Logo=============================*/
+  .skill-box{
+	padding: 1rem;
+	color: #ddd;    
+}
+.img{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	border-radius: 45px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: .5s;
+}
+.img img{
+	width: 80px;
+	height: auto;
+	margin-left: 4px;
+}
+
+.skill-title h3{
+	color: #fff;
+	margin-top: 5px;
+    margin-left: 8px;
+    text-align: right;
+}
+
+.skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:before{
+	width: 35px;
+}
+.skill-box:hover .img{
+	transform: translateY(-10px);
+}
