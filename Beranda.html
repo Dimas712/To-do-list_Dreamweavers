@@ -1,53 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Load an icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/beranda.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
-    <title>Beranda</title>
-</head>
-<body>
-    <!-- The sidebar -->
-    <div class="sidebar">
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="gambar/html.png" alt=""><div class="skill-icon"></div><h3 style="color: black;">Kita Aktif</h3>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/beranda.css">
+        <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+
+        <title>Responsive sidebar submenus</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <img src="" alt="gambar">
+                        <span class="nav__logo-name">Kita Aktif</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="nav__name">Kalender</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+                                
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Sticky Wall</a>
+                                        <a href="#" class="nav__dropdown-item"><i class="fa-solid fa-chart-line"></i> Aktivitas</a>
+                                        <a href="#" class="nav__dropdown-item"><i class="fa-solid fa-folder-minus"></i> Folder</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Folder</h3>
+
+                            <a href="#" class="nav__link">
+                                <i class="fa-solid fa-file-lines" style="color: #FD71AF;"></i>
+                                <span class="nav__name"> Studi Independent</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                                <i class="fa-solid fa-file-lines" style="color: #4BD13F;"></i>
+                                <span class="nav__name"> Kuliah</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                                <i class="fa-solid fa-file-lines" style="color: #2958D2;"></i>
+                                <span class="nav__name"> Kerja</span>
+                            </a>
+                            <a href="#" class="nav__link">
+                                <i class="fa-solid fa-file-lines" style="color: #913914;"></i>
+                                <span class="nav__name"> Organisasi</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
+                <div class="nav__items">
+                    <h3 class="nav__subtitle">Tag</h3>
+                </div>
+                <a href="#" class="nav__link nav__logout">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Keluar</span>
+                </a>
+            </nav>
         </div>
-        <a href="#"><i class="fa-solid fa-calendar-days"></i><span> Kalender</span></a>
-        <a href="#"><i class="fa fa-fw fa-wrench"></i><span> Sticky Wall</span></a>
-        <a href="#"><i class="fa-solid fa-chart-line"></i><span> Aktivitas</span></a>
-        <a href="#"><i class="fa-solid fa-folder"></i><span> Folder</span></a>
-            <br>
-            <div class="h"></div>
-        <p>Folder</p>
-        <a href="#"><i class="fa-solid fa-file-lines" style="color: #FD71AF;"></i><span> Studi Independent</span></a>
-        <a href="#"><i class="fa-solid fa-file-lines" style="color: #4BD13F;"></i><span> Kuliah</span></a>
-        <a href="#"><i class="fa-solid fa-file-lines" style="color: #2958D2;"></i><span> Kerja</span></a>
-        <a href="#"><i class="fa-solid fa-file-lines" style="color: #913914;"></i><span> Organisasi</span></a>
-            <div class="h"></div>
-        <p>Tag</p>
 
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section>
+                <p></p>
+            </section>
+        </main>
 
-
-
-
-
-        <div class="sidebar__account">
-            <img src="assets/img/perfil.png" alt="sidebar image" class="sidebar__perfil">
-
-            <div class="sidebar__names">
-               <h3 class="sidebar__name">Will Lens</h3>
-               <span class="sidebar__email">willens@email.com</span>
-            </div>
-
-            <i class="ri-arrow-right-s-line"></i>
-         </div>
-    </div>
-</body>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
