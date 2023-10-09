@@ -272,110 +272,216 @@ main{
 
 /*====================Content==================*/
 .frame {
-  position: relative;
-  width: 785px;
-  height: 162px;
-}
-
-.frame .group {
   display: inline-flex;
-  flex-direction: column;
   align-items: flex-start;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.frame .img {
+  gap: 20px;
   position: relative;
-  width: 124.5px;
-  height: 24px;
-  z-index: 1;
 }
 
 .frame .div {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 52px;
-  padding: 22px;
   position: relative;
-  flex: 0 0 auto;
-  margin-top: -1px;
-  z-index: 0;
+  width: 248px;
+  height: 229px;
   background-color: #ffffff;
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 10px;
   border: 1px solid;
   border-color: #e6e4f0;
 }
 
+.frame .rectangle {
+  position: absolute;
+  width: 228px;
+  height: 112px;
+  top: 10px;
+  left: 10px;
+}
+
 .frame .div-2 {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 134px;
+  left: 20px;
+}
+
+.frame .div-3 {
+  display: flex;
+  width: 208px;
   align-items: flex-start;
   gap: 7px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.frame .img-2 {
+.frame .group {
   position: relative;
-  width: 28px;
-  height: 28px;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29-2.svg);
+  background-size: 100% 100%;
 }
 
-.frame .text-wrapper {
-  position: relative;
-  width: 165px;
-  margin-top: -1px;
-  font-family: "Plus Jakarta Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: #82808f;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 27.6px;
+.frame .img {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: -590px;
+  left: -1656px;
+  object-fit: cover;
 }
 
-.frame .div-3 {
+.frame .div-4 {
   display: flex;
-  width: 203px;
+  flex-direction: column;
+  width: 163px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.frame .div-5 {
+  display: flex;
+  width: 163px;
   align-items: center;
   justify-content: space-between;
   position: relative;
   flex: 0 0 auto;
 }
 
-.frame .text-wrapper-2 {
+.frame .text-wrapper {
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: "Plus Jakarta Sans-Regular", Helvetica;
-  font-weight: 400;
-  color: #a2a2a2;
-  font-size: 12px;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #25242a;
+  font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
 }
 
 .frame .vector {
   position: relative;
-  width: 20px;
-  height: 4px;
+  width: 15px;
+  height: 3px;
 }
 
-.frame .group-2 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
-  top: 0;
-  left: 269px;
+.frame .div-wrapper {
+  position: relative;
+  width: 165px;
+  height: 15px;
+  margin-right: -2px;
 }
 
-.frame .group-3 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
+.frame .text-wrapper-2 {
   position: absolute;
+  width: 163px;
   top: 0;
-  left: 538px;
+  left: 0;
+  opacity: 0.7;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #56555c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .profitable-wrapper {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fd71af4c;
+  border-radius: 33px;
+  overflow: hidden;
+}
+
+.frame .profitable {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #fd71af;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .profitable-wrapper-2 {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #00b88433;
+  border-radius: 33px;
+  overflow: hidden;
+}
+
+.frame .profitable-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #00b884;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .rectangle-wrapper {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29.svg);
+  background-size: 100% 100%;
+}
+
+.frame .rectangle-2 {
+  left: -1924px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: -590px;
+  object-fit: cover;
+}
+
+.frame .img-wrapper {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29-3.svg);
+  background-size: 100% 100%;
+}
+
+.frame .rectangle-3 {
+  left: -2192px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: -590px;
+  object-fit: cover;
+}
+
+main{
+  margin-left: 23%;
+  top: 50%;
 }
