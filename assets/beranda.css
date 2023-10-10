@@ -224,17 +224,18 @@ body{
     border-radius: 10px;
     border: 1px solid;
     border-color: #e6e4f0;
+    margin-left: 5px;
+    top: 20px;
   }
   
   .avatar .rectangle-wrapper {
     position: relative;
     width: 48px;
     height: 48px;
-    background-image: url(./);
     background-size: 100% 100%;
   }
   
-  .avatar .rectangle {
+  /*.avatar .rectangle {
     position: relative;
     width: 18px;
     height: 18px;
@@ -244,9 +245,9 @@ body{
     border-radius: 2px;
     border: 3px solid;
     border-color: #ffffff;
-  }
+  }*/
   
-  .avatar .setting {
+  .avatar .fa-solid {
     position: absolute;
     width: 22px;
     height: 22px;
@@ -344,10 +345,12 @@ body{
   
 /*====================Content==================*/
 .frame {
+  position: relative;
   display: inline-flex;
   align-items: flex-start;
   gap: 20px;
-  position: relative;
+  left: 250px;
+  bottom: 250px;
 }
 
 .frame .div {
