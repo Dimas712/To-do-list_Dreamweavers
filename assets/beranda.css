@@ -482,6 +482,6 @@ main{
 }
 
 main{
-  margin-left: 23%;
-  top: 50%;
+  position: relative;
+  left: 30px;
 }
