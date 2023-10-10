@@ -14,6 +14,7 @@ body{
     background-color: #E6E4F0;
     overflow-x: hidden;
     padding-top: 2px;
+    position: relative;
   }
 .h{
     width: 200px;
@@ -212,6 +213,79 @@ body{
     line-height: normal;
   }
 
+  .avatar {
+    display: flex;
+    width: 223px;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #e6e4f0;
+  }
+  
+  .avatar .rectangle-wrapper {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-image: url(./);
+    background-size: 100% 100%;
+  }
+  
+  .avatar .rectangle {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 34px;
+    left: 36px;
+    background-color: #00b884;
+    border-radius: 2px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+  .avatar .setting {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 21px;
+    left: 182px;
+  }
+  
+  .avatar .group {
+    position: relative;
+    width: 80px;
+    height: 36px;
+  }
+  
+  .avatar .text-wrapper {
+    position: absolute;
+    height: 18px;
+    top: 0;
+    left: 0;
+    font-family: "Plus Jakarta Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #53515a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .avatar .div {
+    position: absolute;
+    height: 18px;
+    top: 18px;
+    left: 0;
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #a0a0a2;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
 /*========================Logo=============================*/
   .skill-box{
     padding: 2rem;
@@ -239,8 +313,6 @@ body{
     font-size: 20px;
 }
 
-
-
 .sidebar__account {
     display: flex;
     align-items: center;
@@ -265,11 +337,11 @@ body{
     cursor: pointer;
   }
   
-
-main{
-  margin-left: 30%;
-}
-
+  .logout{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
 /*====================Content==================*/
 .frame {
   display: inline-flex;
