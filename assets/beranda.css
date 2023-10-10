@@ -337,26 +337,38 @@ body{
     margin-left: auto;
     cursor: pointer;
   }
-  
-  .logout{
-    margin-top: 30px;
-    margin-left: 10px;
-  }
-  
 /*====================Content==================*/
 .frame {
-  position: relative;
   display: inline-flex;
+  height: 500px;
   align-items: flex-start;
   gap: 20px;
-  left: 250px;
-  bottom: 250px;
+  position: relative;
+}
+
+.frame .component {
+  position: relative;
+  width: 824px;
+  height: 518px;
+  margin-bottom: -18px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.frame .property-default {
+  position: absolute;
+  width: 784px;
+  height: 229px;
+  top: 20px;
+  left: 20px;
 }
 
 .frame .div {
-  position: relative;
+  position: absolute;
   width: 248px;
   height: 229px;
+  top: 0;
+  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid;
@@ -395,7 +407,7 @@ body{
   position: relative;
   width: 38px;
   height: 38px;
-  background-image: url(./img/rectangle-29-2.svg);
+  background-image: url(./img/image.png);
   background-size: 100% 100%;
 }
 
@@ -403,8 +415,8 @@ body{
   position: absolute;
   width: 33px;
   height: 33px;
-  top: -590px;
-  left: -1656px;
+  top: -362px;
+  left: -1647px;
   object-fit: cover;
 }
 
@@ -522,6 +534,18 @@ body{
   line-height: normal;
 }
 
+.frame .div-7 {
+  position: absolute;
+  width: 248px;
+  height: 229px;
+  top: 0;
+  left: 268px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #e6e4f0;
+}
+
 .frame .rectangle-wrapper {
   position: relative;
   width: 38px;
@@ -531,15 +555,86 @@ body{
 }
 
 .frame .rectangle-2 {
-  left: -1924px;
+  top: -362px;
+  left: -1915px;
   position: absolute;
   width: 33px;
   height: 33px;
-  top: -590px;
   object-fit: cover;
 }
 
+.frame .div-8 {
+  position: absolute;
+  width: 248px;
+  height: 229px;
+  top: 0;
+  left: 536px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #e6e4f0;
+}
+
 .frame .img-wrapper {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29-4.svg);
+  background-size: 100% 100%;
+}
+
+.frame .rectangle-3 {
+  top: -362px;
+  left: -2183px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+
+.frame .property-default-2 {
+  position: absolute;
+  width: 784px;
+  height: 229px;
+  top: 269px;
+  left: 20px;
+}
+
+.frame .group-2 {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29.png);
+  background-size: 100% 100%;
+}
+
+.frame .rectangle-4 {
+  top: -611px;
+  left: -1647px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+
+.frame .group-3 {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-image: url(./img/rectangle-29-2.svg);
+  background-size: 100% 100%;
+}
+
+.frame .rectangle-5 {
+  top: -611px;
+  left: -1915px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+
+.frame .group-4 {
   position: relative;
   width: 38px;
   height: 38px;
@@ -547,16 +642,11 @@ body{
   background-size: 100% 100%;
 }
 
-.frame .rectangle-3 {
-  left: -2192px;
+.frame .rectangle-6 {
+  top: -611px;
+  left: -2183px;
   position: absolute;
   width: 33px;
   height: 33px;
-  top: -590px;
   object-fit: cover;
-}
-
-main{
-  position: relative;
-  left: 30px;
 }
