@@ -6,8 +6,8 @@ body{
 
 /* Style the sidebar - fixed full height */
 .sidebar {
-    height: 800px;
-    width: 250px;
+    height: 820px;
+    width: 240px;
     z-index: 1;
     top: 0;
     left: 0;
@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
     padding-top: 2px;
     position: relative;
+    
   }
 .h{
     width: 200px;
@@ -215,7 +216,7 @@ body{
 
   .avatar {
     display: flex;
-    width: 223px;
+    width: 200px;
     align-items: center;
     gap: 8px;
     padding: 8px;
@@ -290,8 +291,8 @@ body{
   .dropbtn {
     background-color: #04AA6D;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 5px;
     border: none;
   }
   
@@ -384,10 +385,9 @@ body{
   align-items: flex-start;
   gap: 20px;
   position: absolute;
-  left: 20%;
-  margin-left: 10px;
-  bottom: 1px;
-  top: 50%;
+  left: 19%;
+  margin-left:;
+  top: 51%;
 }
 
 .frame .component {
