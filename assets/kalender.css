@@ -388,7 +388,7 @@ margin-left: 20px;
   .frame {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 5%;
     top: 1px;
     position: absolute;
 }
