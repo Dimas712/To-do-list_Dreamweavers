@@ -11,7 +11,6 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #E6E4F0;
     overflow-x: hidden;
     padding-top: 2px;
     position: relative;
@@ -19,7 +18,7 @@ body{
   }
 .h{
     width: 200px;
-    height: 5px;
+    height: 2px;
     border: 0 none;
     margin-right: auto;
     margin-left: auto;
@@ -34,7 +33,6 @@ body{
     font-size: 20px;
     color: #818181;
     display: block;
-    background-color: #E6E4F0;
     border-radius: 80px;
     height: 30px;
     margin-right: 20px;
@@ -378,6 +376,14 @@ body{
     margin-left: auto;
     cursor: pointer;
   }
+
+  .vl {
+    border-left: 2px solid black;
+    height: 822px;
+    position: absolute;
+    right: 80%;
+    top: 0;
+  }
 /*====================Content==================*/
 .frame {
   display: inline-flex;
@@ -693,4 +699,15 @@ body{
   width: 33px;
   height: 33px;
   object-fit: cover;
+}
+
+.right-menu{
+  position: absolute;
+  width: 150px;
+  height: 820px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e6e4f0;
+  left: 87%;
+  top: 0%;
 }
