@@ -386,3 +386,27 @@ body{
       margin-left: auto;
       cursor: pointer;
     }
+
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+    #todoList {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc;
+        margin: 5px 0;
+        padding: 5px;
+    }
+    .done {
+        text-decoration: line-through;
+    }
