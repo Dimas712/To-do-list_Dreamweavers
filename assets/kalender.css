@@ -19,16 +19,6 @@ body{
   border-color: black;
   
 }
-.h{
-  width: 200px;
-  height: 0.8px;
-  border: 0 none;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  background-color: black;
-}
 /* Style sidebar links */
 .sidebar a {
   padding: 6px 8px 6px 16px;
@@ -77,6 +67,11 @@ span{
   position: absolute;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.sidebar-break {
+  margin: 10% 6% 6%;
+  border-bottom: 1px solid #000;
 }
 
 /*========================= Tag ==================================*/

@@ -77,6 +77,12 @@ body{
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .sidebar-break {
+    margin: 10% 6% 6%;
+    border-bottom: 1px solid #000;
+}
+
   /*========================= Tag ==================================*/
   .box {
     position: relative;
