@@ -410,3 +410,17 @@ body{
     .done {
         text-decoration: line-through;
     }
+
+    .sidebar-right{
+        height: 820px;
+        width: 240px;
+        z-index: 1;
+        top: 0;
+        right: 90%;
+        overflow-x: hidden;
+        padding-top: 2px;
+        position: relative;
+        border-right-width: 0.8px;
+        border-right-style: solid;
+        border-color: black;
+    }
