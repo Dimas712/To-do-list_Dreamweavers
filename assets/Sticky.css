@@ -393,32 +393,36 @@ body{
     }
     #todoList {
         max-width: 400px;
-        margin: 0 auto;
+        margin: auto;
+
     }
     ul {
         list-style-type: none;
-        padding: 0;
+        align-items: center;
+        top: 10%;
+        position: absolute;
+        left: 20%;
     }
     li {
         display: flex;
         justify-content: space-between;
         align-items: center;
         border: 1px solid #ccc;
-        margin: 5px 0;
+        margin: 5px ;
         padding: 5px;
     }
     .done {
         text-decoration: line-through;
     }
-    
+
     .right-menu{
       position: absolute;
-      width: 150px;
+      width: 200px;
       height: 820px;
       background-color: #ffffff;
       border: 1px solid;
       border-color: #e6e4f0;
-      left: 87%;
+      left: 83%;
       top: 0%;
     }
     
