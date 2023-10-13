@@ -410,17 +410,15 @@ body{
     .done {
         text-decoration: line-through;
     }
-
-    .sidebar-right{
-        height: 820px;
-        width: 240px;
-        z-index: 1;
-        top: 0;
-        right: 90%;
-        overflow-x: hidden;
-        padding-top: 2px;
-        position: relative;
-        border-right-width: 0.8px;
-        border-right-style: solid;
-        border-color: black;
+    
+    .right-menu{
+      position: absolute;
+      width: 150px;
+      height: 820px;
+      background-color: #ffffff;
+      border: 1px solid;
+      border-color: #e6e4f0;
+      left: 87%;
+      top: 0%;
     }
+    
