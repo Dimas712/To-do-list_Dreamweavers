@@ -387,7 +387,10 @@ body{
     cursor: pointer;
   }
   /*========================Content=============================*/
-
+  .arrow {
+    font-size: 24px;
+  }
+  
   .frame {
     background-color: #ffffff;
     display: flex;
@@ -442,7 +445,7 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 3px;
-    padding: 4px 5px;
+    padding: 3px 20px;
     position: relative;
     flex: 0 0 auto;
     background-color: #5577ff;
