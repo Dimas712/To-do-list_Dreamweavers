@@ -7,7 +7,7 @@ body{
 /* Style the sidebar - fixed full height */
 .sidebar {
   height: 820px;
-  width: 240px;
+  width: 200px;
   z-index: 1;
   top: 0;
   left: 0;
@@ -17,8 +17,8 @@ body{
   border-right-width: 0.8px;
   border-right-style: solid;
   border-color: black;
-  
 }
+
 /* Style sidebar links */
 .sidebar a {
   padding: 6px 8px 6px 16px;
@@ -37,21 +37,21 @@ span{
   font-size: 15px;
 }
 
-/* Style links on mouse-over */
+
 .sidebar a:hover {
   background-color: #536EFF;
-  border: 1px solid #526eff;
 }
 .sidebar p{
   margin-left: 17px;
 }
 
+
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 160px; 
   padding: 0px 10px;
 }
 
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -77,13 +77,13 @@ span{
 /*========================= Tag ==================================*/
 .box {
   position: relative;
-  width: 238px;
-  height: 114px;
+  width: 50px;
+  height: 100px;
 }
 
 .box .group {
-  width: 240px;
-  height: 114px;
+  width: 50px;
+  height: 50px;
   top: 0;
   left: 0;
 }
@@ -113,7 +113,7 @@ span{
 .box .tag {
   top: 84px;
   position: absolute;
-  width: 62px;
+  width: 50px;
   height: 30px;
   left: 14px;
 }
@@ -121,7 +121,7 @@ span{
 .box .overlap-group {
   background-color: #ffb784;
   position: relative;
-  width: 60px;
+  width: 50px;
   height: 30px;
   border-radius: 10px;
 }
@@ -129,7 +129,7 @@ span{
 .box .div {
   position: absolute;
   top: 6px;
-  left: 12px;
+  left: 8px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #e17527;
@@ -143,20 +143,20 @@ span{
   width: 62px;
   height: 30px;
   top: 42px;
-  left: 160px;
+  left: 135px;
 }
 
 .box .overlap {
   background-color: #c4caff;
   position: relative;
-  width: 60px;
+  width: 50px;
   height: 30px;
   border-radius: 10px;
 }
 
 .box .text-wrapper-2 {
   top: 6px;
-  left: 12px;
+  left: 8px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #4d58b9;
@@ -168,23 +168,23 @@ span{
 
 .box .overlap-group-wrapper {
   position: absolute;
-  width: 62px;
+  width: 50px;
   height: 30px;
   top: 42px;
-  left: 86px;
+  left: 75px;
 }
 
 .box .div-wrapper {
   background-color: #f6c6da;
   position: relative;
-  width: 60px;
+  width: 50px;
   height: 30px;
   border-radius: 10px;
 }
 
 .box .text-wrapper-3 {
   top: 6px;
-  left: 12px;
+  left: 8px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #ff3f91;
@@ -197,7 +197,7 @@ span{
 .box .tag-2 {
   top: 42px;
   position: absolute;
-  width: 62px;
+  width: 30px;
   height: 30px;
   left: 14px;
 }
@@ -205,14 +205,14 @@ span{
 .box .overlap-2 {
   background-color: #bcf8a0;
   position: relative;
-  width: 60px;
+  width: 50px;
   height: 30px;
   border-radius: 10px;
 }
 
 .box .text-wrapper-4 {
   top: 6px;
-  left: 12px;
+  left: 8px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: #33a100;
@@ -234,7 +234,7 @@ span{
   border: 1px solid;
   border-color: #e6e4f0;
   margin-left: 5px;
-  top: 30px;
+  top: 90px;
 }
 
 .avatar .rectangle-wrapper {
@@ -339,7 +339,7 @@ span{
 /*========================Logo=============================*/
 .skill-box{
   padding: 2rem;
-margin-left: 20px;
+  margin-left: 1px;
 }
 .img{
   width: 80px;
@@ -386,6 +386,7 @@ margin-left: 20px;
   margin-left: auto;
   cursor: pointer;
 }
+
   /*============================== Content =================================*/
   .frame {
     display: flex;
