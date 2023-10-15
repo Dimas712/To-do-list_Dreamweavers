@@ -28,7 +28,7 @@
 
   span{
     color: black;
-    font-size: 15px;
+    font-size: 14   px;
   }
   
   
@@ -344,17 +344,9 @@
     align-items: center;
 }
 .img img{
-    width: 70px;
+    width: 130px;
     height: auto;
     margin-left: 4px;
-}
-
-.skill-title h3{
-    color: #fff;
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 20px;
-    font-size: 20px;
 }
 
 .sidebar__account {

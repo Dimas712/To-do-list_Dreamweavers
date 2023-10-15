@@ -24,7 +24,7 @@ body{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: black;
     display: block;
     border-radius: 10px;
     height: 30px;
@@ -37,7 +37,9 @@ body{
     font-size: 14px;
   }
   
-  
+  .sidebar a span:hover{
+    color: #ffffff;
+  }
   .sidebar a:hover {
     background-color: #536EFF;
   }
@@ -351,17 +353,9 @@ body{
     align-items: center;
 }
 .img img{
-    width: 70px;
+    width: 130px;
     height: auto;
     margin-left: 4px;
-}
-
-.skill-title h3{
-    color: #fff;
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 20px;
-    font-size: 20px;
 }
 
 .sidebar__account {
@@ -397,9 +391,10 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
   top: 0;
   position: absolute;
+  width: 100%;
+  min-height: 200px;
 }
 
 .frame .div {
