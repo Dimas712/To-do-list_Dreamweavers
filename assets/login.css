@@ -22,9 +22,10 @@ body {
     width: 60%;
 }
 
-.logo {
-    margin-top: 10%;
-    text-align: center;
+.logo img{
+    width: 40%;
+    height: auto;
+    
 }
 
 form {
