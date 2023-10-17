@@ -23,9 +23,9 @@ body {
 }
 
 .logo img{
-    width: 40%;
+    width: 35%;
     height: auto;
-    
+    margin-left: 32%;
 }
 
 form {

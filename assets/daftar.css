@@ -12,6 +12,16 @@ body{
   width: 100%;
   display: flex;
 }
+.logo img{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 1%;
+  align-items: center;
+  margin-left: 27%;
+  
+}
+
 .wrapper{
   overflow: hidden;
   background: #fff;
