@@ -939,63 +939,87 @@ body{
   object-fit: cover;
 }
 
-    /* The sidepanel menu */
-    .sidepanel {
-      height: 600px; /* Specify a height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Stay on top */
-      top: 0;
-      right: 0;
-      background-color: #ffffff; /* Black*/
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 60px; /* Place content 60px from the top */
-      transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-      border-left-width: 0.8px;
-      border-left-style: solid;
-      border-color: black;
-    }
-    
-    /* The sidepanel links */
-    .sidepanel a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
-    
-    /* When you mouse over the navigation links, change their color */
-    .sidepanel a:hover {
-      color: #f1f1f1;
-    }
-    
-    /* Position and style the close button (top right corner) */
-    .sidepanel .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-right: 65%;
-    }
-    
-    /* Style the button that is used to open the sidepanel */
-    .openbtn {
-      font-size: 20px;
-      cursor: pointer;
-      background-color: #111;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      margin-left: 80%;
-    }
-    
-    .openbtn:hover {
-      background-color: #444;
-    }
-    
-    .pilih{
-      display: flex;
-      justify-content:space-around;
-    }
+
+
+.sidepanel {
+  height: 600px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #f1f1f1; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  border-left-width: 0.8px;
+  border-left-style: solid;
+  border-color: black;
+}
+
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 70%;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: #111;
+  padding: 5px 10px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.openbtn{
+  margin-left: 82%;
+}
+
+.pilih{
+  display: flex;
+  justify-content:space-around;
+  border-width: 24px;
+}
+
+.Nfolder{
+  margin-left: 15px;
+}
+.Nfolder input{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #818181;
+}
+
+.tanggal{
+  margin-left: 15px;
+}
+.tanggal input{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #818181;
+}
