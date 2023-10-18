@@ -37,9 +37,6 @@ body{
     font-size: 14px;
   }
   
-  .sidebar a span:hover{
-    color: #ffffff;
-  }
   .sidebar a:hover {
     background-color: #536EFF;
   }
@@ -938,7 +935,6 @@ body{
   height: 33px;
   object-fit: cover;
 }
-
 
 
 .sidepanel {
