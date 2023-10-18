@@ -986,6 +986,7 @@ body{
   color: #111;
   padding: 5px 10px;
   border: none;
+
 }
 
 .openbtn:hover {
@@ -993,8 +994,9 @@ body{
 }
 
 .openbtn{
-  margin-left: 82%;
+  margin-left: 85%;
 }
+
 
 .pilih{
   display: flex;
