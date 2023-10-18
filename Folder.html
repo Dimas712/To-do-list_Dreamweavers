@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/beranda.css">
-    <script src="assets/beranda.js"></script>
     <title>Beranda</title>
 </head>
 <body>
@@ -63,7 +62,9 @@
                   <span class="name">Pengguna</span>
                   <span class="profission" >Akun Gratis</span>
                 </div>
-                <img src="img/log-out.svg" alt="" class="nav__user-icon">
+                <a href="Login.html" id="logoutLink">
+                  <img src="img/log-out.svg" alt="" class="nav__user-icon">
+                </a>
               </div>
          </div>
     </div>
@@ -156,6 +157,27 @@
         <div class="div-8">
           <img class="img" src="img/Time Square.svg" />
           <div class="text-wrapper">Aktivitas Terbaru</div>
+          <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <form>
+              <form action="" method="get">
+                <div class="Nfolder">
+                  <label for="fname">Nama Folder</label>
+                  <input type="text" id="fname" name="name"><br><br>
+                </div>
+                <div class="tanggal">
+                  <label for="lname">Tanggal Buat</label>
+                  <input type="date" id="lname" name="tanggal"><br><br>
+                </div>
+                <div class="pilih">
+                  <button type="button" class="btn btn-danger btn-sm" style="width: 80px;">Danger</button>
+                  <button type="button" class="btn btn-success btn-sm" style="width: 80px;">Success</button>
+                </div>
+              </form>
+              </form>
+          </div>
+          
+          <button class="openbtn" onclick="openNav()">&#9776; Buat Folder</button>
         </div>
         <div class="component-wrapper">
           <div class="component">
@@ -284,28 +306,7 @@
         </div>
       </div>
     </div>
-  <!-- </main> -->
-  <div class="right-menu"></div>
-  <div id="mySidepanel" class="sidepanel">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <form>
-      <form action="" method="get">
-        <div class="Nfolder">
-          <label for="fname">Nama Folder</label>
-          <input type="text" id="fname" name="name"><br><br>
-        </div>
-        <div class="tanggal">
-          <label for="lname">Tanggal Buat</label>
-          <input type="date" id="lname" name="tanggal"><br><br>
-        </div>
-        <div class="pilih">
-          <button type="button" class="btn btn-danger btn-sm" style="width: 80px;">Danger</button>
-          <button type="button" class="btn btn-success btn-sm" style="width: 80px;">Success</button>
-        </div>
-      </form>
-      </form>
-  </div>
-  
-  <button class="openbtn" onclick="openNav()">&#9776; Buat Folder</button>
+
 </body>
+<script src="assets/beranda.js"></script>
 </html>
