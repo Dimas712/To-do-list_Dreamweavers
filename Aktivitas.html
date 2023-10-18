@@ -75,19 +75,7 @@
               </div>
          </div>
     </div>
-
-
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-      
-      <!-- Use any element to open the sidenav -->
-      <span onclick="openNav()">open</span>
-      
+ 
   <!------ Content -------->
   <div class="frame">
     <div class="div">
@@ -156,6 +144,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="div-wrapper">
                         <div class="div-4">
                             <div class="div-5">
@@ -202,6 +191,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="div-wrapper">
                         <div class="div-4">
                             <div class="div-5">
@@ -250,6 +240,53 @@
                     </div>
                 </div>
             </div>
+                  <!---------------------------------------Form Aktivitas------------------------------------------------->
+ <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <form action="">
+    <div class="aktivitas">
+      <input type="text" id="fname" name="name" placeholder="Tambah Aktivitas"><br><br>
+    </div>
+    <div class="deskripsi">
+        <textarea id="w3review" name="w3review" rows="4" cols="23" placeholder="Deskripsi">
+        </textarea><br><br>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputdate" class="form-label-sm " col="2" style="margin-left: 2px;">Tanggal Buat</label>
+      <input type="date" class="form-control-sm" id="exampleInputdate" style="margin-left: 13px;">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlDate" class="form-label-sm" style="margin-left: 2px;">Tenggat Waktu</label>
+      <input type="date" class="form-control-sm" col="5" id="exampleFormControlInput1" placeholder="Waktu">
+    </div>
+    <label for="exampleFormInputFolder" style="margin-left: 4px;">Folder</label>
+    <select class="form-select-sm form-select-sm" aria-label=".form-select-sm example" style="margin-left: 52px;">
+      <option selected>Nama Folder</option>
+      <option value="1">Studi Independen</option>
+      <option value="2">Kuliah</option>
+      <option value="3">Kerja</option>
+      <option value="4">Organisasi</option>
+    </select><br><br>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label" style="margin-left: 4px;">Prioritas</label>
+      <input type="text" class="form-control-sm" id="exampleFormControlInput1" placeholder="Tipe Prioritas" style="margin-left: 5px;">
+    </div>
+    <div class="tag">
+      <label for="">Tag</label>
+      <button type="button" class="tag1">Tag 1</button>
+      <button type="button" class="tag2">Tag 2</button>
+      <button type="button" class="tag3">Tag 3</button>
+      <button type="button" class="tag4">Tag 4</button>
+    </div>
+    
+    <div class="pilih">
+        <button type="button" class="btn btn-danger btn-sm" style="width: 80px;">Cancel</button>
+        <button type="button" class="btn btn-success btn-sm" style="width: 80px;">Save</button>
+    </div>
+  </form>
+</div>
+  <button class="openbtn" onclick="openNav()">&#9776; Buat Sticky Wall</button>
+  
             <div class="project-overview">
                 <div class="text-wrapper-7">Deskripsi</div>
                 <p class="p">
@@ -298,7 +335,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="div-14">
                     <div class="div-15">
                         <div class="div-16">
@@ -341,75 +377,9 @@
                     </div>
                 </div>
             </div>
-            <div class="right-menu">
-                <div class="frame-wrapper-2">
-                    <div class="div-23">
-                        <img class="img" src="gambar/layer.webp" />
-                        <div class="text-wrapper-18">Tambah Aktifitas</div>
-                    </div>
-                </div>
-                <div class="name-folder">
-                    <div class="overlap-group-2"><div class="text-wrapper-19">Tambah Aktifitas</div></div>
-                </div>
-                <div class="tanggal">
-                    <div class="overlap-2"><div class="text-wrapper-20">28 September 2023</div></div>
-                    <div class="tanggal-2">Tanggal Buat</div>
-                </div>
-                <div class="deadline">
-                    <div class="overlap-2"><div class="text-wrapper-21">1 Oktober 2023</div></div>
-                    <div class="tanggal-3">Tenggat Waktu</div>
-                </div>
-                <div class="tag">
-                    <div class="overlap-3">
-                        <div class="tanggal-4">Tag</div>
-                        <div class="overlap-wrapper">
-                            <div class="overlap-4"><div class="text-wrapper-22">Tag 1</div></div>
-                        </div>
-                    </div>
-                    <div class="tag-2">
-                        <div class="tag-wrapper"><div class="tag-3">Tag 4</div></div>
-                    </div>
-                    <div class="tag-4">
-                        <div class="overlap-5"><div class="text-wrapper-23">Tag 3</div></div>
-                    </div>
-                    <div class="tag-5">
-                        <div class="overlap-6"><div class="text-wrapper-24">Tag 2</div></div>
-                    </div>
-                </div>
-                <div class="deskripsi">
-                    <div class="overlap-7"><div class="text-wrapper-25">Deskripsi</div></div>
-                </div>
-                <div class="group-4">
-                    <div class="overlap-8"><div class="text-wrapper-26">Cancel</div></div>
-                </div>
-                <div class="group-5">
-                    <div class="overlap-9"><div class="text-wrapper-27">Save</div></div>
-                </div>
-                
-
-                <div class="folder-2">
-                    <div class="overlap-10">
-                        <div class="group-6">
-                            <div class="overlap-group-3">
-                                <img class="line" src="img/line-1.svg" /> <img class="line-2" src="img/line-2.svg" />
-                            </div>
-                        </div>
-                        <div class="text-wrapper-28">Name Folder</div>
-                    </div>
-                    <div class="tanggal-5">Folder</div>
-                </div>
-                <div class="folder-3">
-                    <div class="overlap-10">
-                        <div class="group-6">
-                            <div class="overlap-group-3">
-                                <img class="line" src="img/line-1-2.svg" /> <img class="line-2" src="img/line-2-2.svg" />
-                            </div>
-                        </div>
-                        <div class="text-wrapper-28">Penting</div>
-                    </div>
-                    <div class="tanggal-5">Prioritas</div>
-                </div>
-            </div>
         </div>
+    </div>
+    
 </body>
+<script src="assets/aktivitas.js"></script>
 </html>
