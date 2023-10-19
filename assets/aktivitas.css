@@ -1572,47 +1572,79 @@ body{
 
 /* ----------------------------------------Form Aktvitas-----------------------------------------*/
 .sidepanel {
-    height: 600px; /* Specify a height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 650px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
-    background-color: #ffffff; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-    border-left-width: 0.8px;
-    border-left-style: solid;
-    border-color: black;
-  }
-  
-  /* The sidepanel links */
-  .sidepanel a {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    border-left: 0.8px solid black;
+}
+
+.sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 5px;
+    font-size: 12px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidepanel a:hover {
+}
+
+.sidepanel a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidepanel .closebtn {
+}
+
+.tag {
+    margin-left: 2px;
+}
+
+.tag button {
+    border-style: solid;
+    border-radius: 10px;
+    width: 60px;
+    height: auto;
+    font-size: 15px;
+}
+
+.tag1 {
+    border-color: #BDF9A0;
+    background-color: #BDF9A0;
+    color: #34A200;
+}
+
+.tag2 {
+    border-color: #F7C6DB;
+    background-color: #F7C6DB;
+    color: #FF4092;
+}
+
+.tag3 {
+    border-color: #C4CAFF;
+    background-color: #C4CAFF;
+    color: #4E59B9;
+}
+
+.tag4 {
+    border-color: #FFB885;
+    background-color: #FFB885;
+    color: #E17527;
+    margin-top: 6px;
+    margin-left: 28px;
+}
+
+.sidepanel .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-right: 65%;
-  }
-  
-  /* Style the button that is used to open the sidepanel */
-  .openbtn {
+}
+
+.openbtn {
     margin-top: 2%;
     font-size: 12px;
     cursor: pointer;
@@ -1621,64 +1653,24 @@ body{
     padding: 10px 15px;
     border: none;
     margin-left: 71%;
-  }
-  
-  .openbtn:hover {
-    background-color:#818181;
-  }
-  
-  .pilih{
+}
+
+.openbtn:hover {
+    background-color: #818181;
+}
+
+.pilih {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     border-width: 24px;
     margin-top: 20px;
-  }
-  
-  .aktivitas{
+}
+
+.aktivitas {
     margin-left: 25px;
-  }
-  .aktivitas input{
+}
+
+.aktivitas input {
     border-radius: 4px;
     border-style: solid;
-  }
-  
-  .deskripsi{
-    margin-left: 25px;
-  }
-  textarea{
-    border-radius: 4px;
-    border-style: solid;
-    border-color: #111;
-  }  
-  .tag{
-    margin-left: 2px;
-  }
-  .tag button{
-    border-style: solid;
-    border-radius: 10px;
-    width: 60px;
-    height: auto;
-    font-size: 15px;
-  } 
-  .tag1{
-    border-color: #BDF9A0;
-    background-color: #BDF9A0;
-    color: #34A200;
-  }
-  .tag2{
-    border-color: #F7C6DB;
-    background-color: #F7C6DB;
-    color: #FF4092;
-  }
-  .tag3{
-    border-color: #C4CAFF;
-    background-color: #C4CAFF;
-    color: #4E59B9;
-  }
-  .tag4{
-    border-color: #FFB885;
-    background-color: #FFB885;
-    color: #E17527;
-    margin-top: 6px;
-    margin-left: 28px;
-  }
+}
