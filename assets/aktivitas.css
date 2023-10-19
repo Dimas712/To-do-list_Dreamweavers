@@ -234,7 +234,7 @@ body{
     border: 1px solid;
     border-color: #e6e4f0;
     margin-left: 5px;
-    top: 300px;
+    top: 280px;
   }
   
   .avatar .rectangle-wrapper {
@@ -333,8 +333,6 @@ body{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-
   
 /*========================Logo=============================*/
   .skill-box{
