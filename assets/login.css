@@ -29,7 +29,7 @@ body {
 }
 
 form {
-    margin-top: 37%;
+    margin-top: 20%;
 }
 
 form h1 {
@@ -86,15 +86,13 @@ form button {
         background-color: rgb(194, 82, 177);
     }
 
-form h3 {
-    margin-top: 6%;
-    font-size: 15px;
-    font-weight: lighter;
+.forget {
+    color: #515961;
+    margin-top: 3%;
     text-align: center;
-    line-height: 25px;
 }
 
-form h3 a {
+.forget a {
     text-decoration: none;
     color: #0151FC;
 }
