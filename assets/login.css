@@ -68,6 +68,14 @@ form .form-input input::placeholder {
     font: 0.9rem/3 sans-serif;
 }
 
+.form-input input[type="submit"]{
+    color: #ffffff;
+    background-color: black;
+}
+.form-input input[type="submit"]:hover{
+    background: green;
+    cursor: pointer;
+}
 form button {
     width: 100%;
     background-color:rgb(12, 154, 241);
