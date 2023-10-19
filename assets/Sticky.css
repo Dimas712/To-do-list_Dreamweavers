@@ -6,7 +6,7 @@ body{
   
  /* Style the sidebar - fixed full height */
 .sidebar {
-  height: 820px;
+  height: 1000px;
   width: 200px;
   z-index: 1;
   top: 0;
@@ -234,7 +234,7 @@ span{
   border: 1px solid;
   border-color: #e6e4f0;
   margin-left: 5px;
-  top: 90px;
+  top: 350px;
 }
 
 .avatar .rectangle-wrapper {
@@ -466,6 +466,8 @@ span{
   color: #111;
   padding: 10px 15px;
   border: none;
+  margin-left: 69%;
+  margin-top: 3%
   
 }
 
