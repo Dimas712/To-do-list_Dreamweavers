@@ -74,7 +74,9 @@
               </div>
          </div>
     </div>
+    
     <!--=========================== Content ================================-->
+    
     <div class="frame">
       <div class="group">
         <div class="div">
@@ -163,28 +165,30 @@
         <div class="div-8">
           <img class="img" src="img/Time Square.svg" />
           <div class="text-wrapper">Aktivitas Terbaru</div>
-          <div id="mySidepanel" class="sidepanel">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <form>
-              <form action="" method="get">
-                <div class="Nfolder">
-                  <label for="fname">Nama Folder</label>
-                  <input type="text" id="fname" name="name"><br><br>
-                </div>
-                <div class="tanggal">
-                  <label for="lname">Tanggal Buat</label>
-                  <input type="date" id="lname" name="tanggal"><br><br>
-                </div>
-                <div class="pilih">
-                  <button type="button" class="btn btn-danger btn-sm" style="width: 80px;">Danger</button>
-                  <button type="button" class="btn btn-success btn-sm" style="width: 80px;">Success</button>
-                </div>
-              </form>
-              </form>
-          </div>
-          
-          <button class="openbtn" onclick="openNav()">&#9776; Buat Folder</button>
         </div>
+
+        <!-----------------------------------Form Buat Folder----------------------------->
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <form>
+            <form action="" method="get">
+              <div class="Nfolder">
+                <label for="fname">Nama Folder</label>
+                <input type="text" id="fname" name="name"><br><br>
+              </div>
+              <div class="tanggal">
+                <label for="lname">Tanggal Buat</label>
+                <input type="date" id="lname" name="tanggal"><br><br>
+              </div>
+              <div class="pilih">
+                <button type="button" class="btn btn-danger btn-sm" style="width: 80px;">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm" style="width: 80px;">Save</button>
+              </div>
+            </form>
+            </form>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776; Buat Folder</button>
+
         <div class="component-wrapper">
           <div class="component">
 

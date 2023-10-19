@@ -60,8 +60,9 @@ form .form-input button:focus{
 }
 
 form .form-input input {
-    color: rgb(107, 107, 107);
+    color: grey;
     font-size: 16px;
+    border-color: grey;
 }
 
 form .form-input input::placeholder {
